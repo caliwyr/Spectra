@@ -20,7 +20,7 @@ module.exports = {
       return message.reply({embeds : [new MessageEmbed()
         .setColor(es.color).setThumbnail(es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null)
         .setFooter(client.getFooter(es))
-        .setTitle(`<a:yes:833101995723194437> ${!GuildSettings.unkowncmdmessage ? "Enabled": "Disabled"} Unknown Command Information`)
+        .setTitle(`<a:success:907963383066816563> ${!GuildSettings.unkowncmdmessage ? "Enabled": "Disabled"} Unknown Command Information`)
         .setDescription(`${!GuildSettings.unkowncmdmessage ? "I will now send an Information when the Command is not found" : "I will not send Information of Unknown Commands"}`.substring(0, 2048))
       ]});
     } catch (e) {
@@ -35,7 +35,7 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO

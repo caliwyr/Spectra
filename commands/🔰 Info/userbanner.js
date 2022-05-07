@@ -55,7 +55,7 @@ module.exports = {
         embeduserinfo.setDescription(`[Download the Banner of **${user.tag}**](${banner}) <@${user.id}>`)
       } else {
         embeduserinfo.setColor(user.hexAccentColor ? user.hexAccentColor : es.color)
-        embeduserinfo.setTitle(`<:no:833101993668771842> **Has no Banner!**`)
+        embeduserinfo.setTitle(`<:no:904319985004978198> **Has no Banner!**`)
       }
       message.reply({embeds: [embeduserinfo]})
   
@@ -72,7 +72,7 @@ module.exports = {
 }
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO

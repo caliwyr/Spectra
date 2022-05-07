@@ -80,7 +80,7 @@ module.exports = {
         }); //collector for 5 seconds
         collector.on('collect', async b => {
             if (b?.user.id !== buttonuser.id)
-                return b?.reply(`<:no:833101993668771842> **Only the one who typed ${prefix}help is allowed to react!**`, true)
+                return b?.reply(`<:no:904319985004978198> **Only the one who typed ${prefix}help is allowed to react!**`, true)
 
 
             //page forward

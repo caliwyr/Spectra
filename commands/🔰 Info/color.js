@@ -39,10 +39,10 @@ module.exports = {
       })
       const embed = new Discord.MessageEmbed()
         .setTitle(eval(client.la[ls]["cmds"]["info"]["color"]["variable1"]))
-        .addField('<:arrow:832598861813776394> **Name**', "```"+json.name+"```", true)
-        .addField("<:arrow:832598861813776394> **Hex**",  "```"+json.hex+"```", true)
-        .addField("<:arrow:832598861813776394> **RGB**",  "```"+json.rgb+"```", true)
-        .addField(`<:arrow:832598861813776394> **${client.la[ls].cmds.info.color.brightershade}**`,  "```"+json.brightened +"```", true)
+        .addField('<:arrow:946300939512463392> **Name**', "```"+json.name+"```", true)
+        .addField("<:arrow:946300939512463392> **Hex**",  "```"+json.hex+"```", true)
+        .addField("<:arrow:946300939512463392> **RGB**",  "```"+json.rgb+"```", true)
+        .addField(`<:arrow:946300939512463392> **${client.la[ls].cmds.info.color.brightershade}**`,  "```"+json.brightened +"```", true)
         .setThumbnail(json.color_image)
         .setColor(json.hex)
       if(userinfo) embed.addField("Color ==  your Highest Role!", `> Usage: \`${prefix}color ${args[0]}\``);
@@ -62,7 +62,7 @@ module.exports = {
 }
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO

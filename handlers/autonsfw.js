@@ -15,7 +15,7 @@ module.exports = async (client) => {
         for await (const guildid of guilds.filter(d => client.guilds.cache.has(d))){
             await autonsfw(guildid)
         }
-    }, null, true, 'Europe/Berlin');
+    }, null, true, 'Asia/Jakarta');
     
     client.Jobautonsfw.start();
 

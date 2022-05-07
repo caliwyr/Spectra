@@ -21,16 +21,16 @@ module.exports = {
 		    .setDescription(`
 Third Sponsor of This Bot is:
 **BERO-HOST** THE BEST HOSTER
-<:arrow:832598861813776394> BERO-HOST.de is sponsoring them with some free / cheaper Hosting Methods,
-<:arrow:832598861813776394> Thanks to them, we are able to host our Website, Bots and GAME SERVERS
-<:arrow:832598861813776394> Our suggestion is, if you want to host Bots / Games / Websites, then go to [BERO-HOST.de](https://bero-host.de/?utm_source=bot&utm_medium=partner&utm_campaign=milrato)
+<:arrow:946300939512463392> BERO-HOST.de is sponsoring them with some free / cheaper Hosting Methods,
+<:arrow:946300939512463392> Thanks to them, we are able to host our Website, Bots and GAME SERVERS
+<:arrow:946300939512463392> Our suggestion is, if you want to host Bots / Games / Websites, then go to [BERO-HOST.de](https://bero-host.de/?utm_source=bot&utm_medium=partner&utm_campaign=milrato)
 
 **What they are offering:**
-<:arrow:832598861813776394> **>>** Minecraft Hosting, CounterStrike: Global Offensive, Garry's Mod, ARK, ARMA 3, ...
-<:arrow:832598861813776394> **>>** Cheap and fast Domains
-<:arrow:832598861813776394> **>>** WEBHOSTING
-<:arrow:832598861813776394> **>>** TEAMSPEAK SERVERS
-<:arrow:832598861813776394> **>>** Linux & Windows Root Servers
+<:arrow:946300939512463392> **>>** Minecraft Hosting, CounterStrike: Global Offensive, Garry's Mod, ARK, ARMA 3, ...
+<:arrow:946300939512463392> **>>** Cheap and fast Domains
+<:arrow:946300939512463392> **>>** WEBHOSTING
+<:arrow:946300939512463392> **>>** TEAMSPEAK SERVERS
+<:arrow:946300939512463392> **>>** Linux & Windows Root Servers
 
 [**Discord Server:**](https://discord.bero-host.de)
 [**Website:**](https://bero-host.de/?utm_source=bot&utm_medium=partner&utm_campaign=milrato)
@@ -49,11 +49,11 @@ Third Sponsor of This Bot is:
 			.setTitle(eval(client.la[ls]["cmds"]["info"]["sponsor"]["variable4"]))
 			.setURL("https://bittmax.de")
 			.setDescription(`
-<:arrow:832598861813776394> Bittmax is providing us, like BERO-HOST with free Discord Bot-Hosting technologies
+<:arrow:946300939512463392> Bittmax is providing us, like BERO-HOST with free Discord Bot-Hosting technologies
 
-<:arrow:832598861813776394> If you use the code: **\`milrato\`** their, then you'll get at least 5% off everything!
+<:arrow:946300939512463392> If you use the code: **\`milrato\`** their, then you'll get at least 5% off everything!
 
-<:arrow:832598861813776394> Check out their [Website](https://bittmax.de) and their [Discord](https://discord.gg/GgjJZCyYKD) to get your own Bot too!`);
+<:arrow:946300939512463392> Check out their [Website](https://bittmax.de) and their [Discord](https://discord.gg/GgjJZCyYKD) to get your own Bot too!`);
 			swap_pages2(client, message, [embed1, embed2])
 		} catch (e) {
         console.log(String(e.stack).grey.bgRed)
@@ -68,7 +68,7 @@ Third Sponsor of This Bot is:
 }
 /**
   * @INFO
-  * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+  * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
   * @INFO
   * Work for Milrato Development | https://milrato.eu
   * @INFO

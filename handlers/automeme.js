@@ -32,7 +32,7 @@ module.exports = async (client) => {
         for await (const guildid of guilds){
             await automeme(guildid)
         }
-    }, null, true, 'Europe/Berlin');
+    }, null, true, 'Asia/Jakarta');
     
     client.on("ready", () => {
         client.Jobautomeme.start();

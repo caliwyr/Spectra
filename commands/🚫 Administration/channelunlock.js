@@ -52,13 +52,13 @@ module.exports = {
           return message.reply({embeds :[new MessageEmbed()
             .setColor(es.wrongcolor)
             .setFooter(client.getFooter(es))
-            .setTitle(`<:no:833101993668771842> **This Channel is a Thread u can't unlock it!**`)
+            .setTitle(`<:no:904319985004978198> **This Channel is a Thread u can't unlock it!**`)
           ]});
           if(channel.permissionOverwrites.cache.filter(permission => permission.deny.toArray().includes("SEND_MESSAGES")).size < 1)
             return message.reply({embeds :[new MessageEmbed()
               .setColor(es.wrongcolor)
               .setFooter(client.getFooter(es))
-              .setTitle(`<:no:833101993668771842> **This Channel is not locked!**`)
+              .setTitle(`<:no:904319985004978198> **This Channel is not locked!**`)
               .setDescription(`This usually means, that the Channel **PERMISSIONS** are so defined, that __all__ of them are ALLOWING to send a Message!`)
             ]});
             await channel.permissionOverwrites.set(
@@ -87,7 +87,7 @@ module.exports = {
           message.reply({embeds :[new MessageEmbed()
             .setColor(es.color)
             .setFooter(client.getFooter(es))
-            .setTitle(`<a:yes:833101995723194437> **Successfully unlocked \`${channel.name}\`**`)
+            .setTitle(`<a:success:907963383066816563> **Successfully unlocked \`${channel.name}\`**`)
           ]});
       if(GuildSettings && GuildSettings.adminlog && GuildSettings.adminlog != "no"){
         try{

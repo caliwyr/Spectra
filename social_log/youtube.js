@@ -7,7 +7,7 @@ module.exports = async (client) => {
 
     client.Jobyoutube = new CronJob('0 3,11,19,25,31,37,43,49,55 * * * *', async function () {
         await check(client);
-    }, null, true, 'Europe/Berlin');
+    }, null, true, 'Asia/Jakarta');
 
     client.on("ready", () => {
         setTimeout(() => check(client), 1000)

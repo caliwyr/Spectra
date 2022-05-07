@@ -21,7 +21,7 @@ module.exports = function (client) {
     check_voice_channels(client);
     check_created_voice_channels(client);
     return;
-  }, null, true, 'Europe/Berlin');
+  }, null, true, 'Asia/Jakarta');
 
   client.on("ready", () => {
     check_voice_channels(client);
@@ -141,7 +141,7 @@ module.exports = function (client) {
 
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO

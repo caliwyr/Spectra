@@ -270,7 +270,7 @@ module.exports = {
             .setColor(es.color)
             .setAuthor(client.getAuthor("Setup-Systems", 
             "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/lg/57/gear_2699.png",
-            "https://discord.gg/milrato"))
+            "https://discord.gg/oryzen"))
             .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup"]["variable1"]))
          
           //send the menu msg
@@ -295,7 +295,7 @@ module.exports = {
                 menumsg1.edit({components: [], embeds: menumsg1.embeds}).catch(() => null);
                 menuselection(menu);
               }
-              else menu?.reply({content: `<:no:833101993668771842> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
+              else menu?.reply({content: `<:no:904319985004978198> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
             }
           });
         }
@@ -315,7 +315,7 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO

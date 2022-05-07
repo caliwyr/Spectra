@@ -52,14 +52,14 @@ module.exports = {
         return message.reply({embeds: [new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<:no:833101993668771842> **There are no open Threads in this Server**`)
+          .setTitle(`<:no:904319985004978198> **There are no open Threads in this Server**`)
         ]}); 
       for await (const channel of channels)
         await channel.join()
       message.reply({embeds :[new MessageEmbed()
         .setColor(es.color)
         .setFooter(client.getFooter(es))
-        .setTitle(`<a:yes:833101995723194437> **I joined \`${channels.size}\` Threads**`)
+        .setTitle(`<a:success:907963383066816563> **I joined \`${channels.size}\` Threads**`)
       ]});
       if (GuildSettings && GuildSettings.adminlog && GuildSettings.adminlog != "no") {
         try {
@@ -91,7 +91,7 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO

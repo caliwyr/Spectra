@@ -38,7 +38,7 @@ module.exports = async (client) => {
                   message.channel.send({content: data.cnt}).catch(() => null)
                 });
               }catch (e){
-                message.channel.send({content: "<:no:833101993668771842> AI CHAT API IS DOWN"}).catch(() => null)
+                message.channel.send({content: "<:no:904319985004978198> AI CHAT API IS DOWN"}).catch(() => null)
               }
             }
         }catch(e){console.log(String(e).grey)}

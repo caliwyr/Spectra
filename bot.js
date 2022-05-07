@@ -195,7 +195,7 @@ client.login(config.token);
  
  /**********************************************************
   * @INFO
-  * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+  * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
   * @INFO
   * Work for Milrato Development | https://milrato.eu
   * @INFO

@@ -14,11 +14,11 @@ module.exports = {
 		if (GuildSettings.SOUNDBOARD === false) {return message.reply({embeds: [new MessageEmbed().setColor(es.wrongcolor).setFooter(client.getFooter(es)).setTitle(client.la[ls].common.disabled.title).setDescription(require(`../../handlers/functions`).handlemsg(client.la[ls].common.disabled.description, {prefix: prefix}))]});}
 		const { channel } = message.member.voice;
 		const botchannel = message.guild.me.voice.channel;
-		if (!channel) {return message.reply({embeds: [new MessageEmbed().setTitle('<:no:833101993668771842> You need to join a voice channel').setColor(es.wrongcolor).setFooter(client.getFooter(es))]});}
+		if (!channel) {return message.reply({embeds: [new MessageEmbed().setTitle('<:no:904319985004978198> You need to join a voice channel').setColor(es.wrongcolor).setFooter(client.getFooter(es))]});}
 		if(!channel.permissionsFor(message.guild.me).has("CONNECT")){return message.reply({embeds: [new MessageEmbed().setTitle(":x: I'm missing the Permission to join your Voice Channel").setColor(es.wrongcolor).setFooter(client.getFooter(es))]});}
 		if(!channel.permissionsFor(message.guild.me).has("SPEAK")){return message.reply({embeds: [new MessageEmbed().setTitle(":x: I'm missing the Permission to speak in your Voice Channel").setColor(es.wrongcolor).setFooter(client.getFooter(es))]});}
 		if(channel.userLimit != 0 && channel.full){return message.reply({embeds: [new MessageEmbed().setTitle(":x: Your Voice Channel is full!").setColor(es.wrongcolor).setFooter(client.getFooter(es))]});}
-		if (botchannel) {return message.reply({embeds: [new MessageEmbed().setTitle(`<:no:833101993668771842> I am already connected in: \`${botchannel.name}\``).setFooter(client.getFooter(es))]});}
+		if (botchannel) {return message.reply({embeds: [new MessageEmbed().setTitle(`<:no:904319985004978198> I am already connected in: \`${botchannel.name}\``).setFooter(client.getFooter(es))]});}
 		const e = await message.react('🎙️').catch(e => console.log(String(e).grey))
 		let VoiceConnection = joinVoiceChannel({channelId: channel.id,guildId: channel.guild.id,adapterCreator: channel.guild.voiceAdapterCreator}); 
 		let file = path.join(__dirname + `/audio/${CmdName}.mp3`);
@@ -43,7 +43,7 @@ module.exports = {
 }
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO

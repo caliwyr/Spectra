@@ -139,7 +139,7 @@ module.exports = {
           await  await client.queuesaves.set(`${message.author?.id}.${Name}`, oldtracks);
           //return susccess message
           return message.reply({embeds : [new MessageEmbed()
-            .setTitle(`<a:yes:833101995723194437> Added ${track.title} onto the Queue \`${Name}\``.substring(0, 256))
+            .setTitle(`<a:success:907963383066816563> Added ${track.title} onto the Queue \`${Name}\``.substring(0, 256))
             .setDescription(eval(client.la[ls]["cmds"]["customqueues"]["savedqueue"]["variable19"]))
             .setColor(es.color).setThumbnail(es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null)
             .setFooter(client.getFooter(es))]})  }
@@ -263,7 +263,7 @@ module.exports = {
           await client.queuesaves.set(`${message.author?.id}.${Name}`, tracks)
           //return susccess message
           return message.reply({embeds :[new MessageEmbed()
-            .setTitle(`<a:yes:833101995723194437> Deleted ${deletetrack.title} of the Queue \`${Name}\``.substring(0, 256))
+            .setTitle(`<a:success:907963383066816563> Deleted ${deletetrack.title} of the Queue \`${Name}\``.substring(0, 256))
             .setDescription(eval(client.la[ls]["cmds"]["customqueues"]["savedqueue"]["variable40"]))
             .setColor(es.color).setThumbnail(es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null)
             .setFooter(client.getFooter(es))
@@ -307,7 +307,7 @@ module.exports = {
           await client.queuesaves.set(`${message.author?.id}.${Name}`, newtracks);
           //return susccess message
           return message.reply({embeds : [new MessageEmbed()
-            .setTitle(`<a:yes:833101995723194437> Shuffled ${newtracks.length} Tracks of the Queue \`${Name}\``.substring(0, 256))
+            .setTitle(`<a:success:907963383066816563> Shuffled ${newtracks.length} Tracks of the Queue \`${Name}\``.substring(0, 256))
             .setDescription(eval(client.la[ls]["cmds"]["customqueues"]["savedqueue"]["variable49"]))
             .setColor(es.color).setThumbnail(es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null)
             .setFooter(client.getFooter(es))]})
@@ -365,7 +365,7 @@ module.exports = {
           await client.queuesaves.set(`${message.author?.id}.${Name}`, newtracks);
           //return susccess message
           return message.reply({embeds : [new MessageEmbed()
-            .setTitle(`<a:yes:833101995723194437> Removed ${counter} Tracks from the Queue \`${Name}\``.substring(0, 256))
+            .setTitle(`<a:success:907963383066816563> Removed ${counter} Tracks from the Queue \`${Name}\``.substring(0, 256))
             .setDescription(eval(client.la[ls]["cmds"]["customqueues"]["savedqueue"]["variable58"]))
             .setColor(es.color).setThumbnail(es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null)
             .setFooter(client.getFooter(es))]})
@@ -689,7 +689,7 @@ Object.size = function (obj) {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO

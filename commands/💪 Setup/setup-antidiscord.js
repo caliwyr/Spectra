@@ -94,7 +94,7 @@ module.exports = {
           .setColor(es.color)
           .setAuthor(client.getAuthor("Anti-Discord-Links System Setup", 
           "https://cdn.discordapp.com/emojis/858405056238714930.gif?v=1",
-          "https://discord.gg/milrato"))
+          "https://discord.gg/oryzen"))
           .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-antidiscord"]["variable1"]))
         let used1 = false;
         //send the menu msg
@@ -114,11 +114,11 @@ module.exports = {
             client.disableComponentMessage(menu); used1 = true;
             handle_the_picks(menuoptionindex, menuoptiondata)
           }
-          else menu?.reply({content: `<:no:833101993668771842> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
+          else menu?.reply({content: `<:no:904319985004978198> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
         });
         //Once the Collections ended edit the menu message
         collector.on('end', collected => {
-          menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a:yes:833101995723194437> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
+          menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a:success:907963383066816563> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
         });
       }
 
@@ -129,7 +129,7 @@ module.exports = {
             let previous = GuildSettings?.antidiscord?.enabled || false;
             await client.settings.set(`${message.guild.id}.antidiscord.enabled`, !previous)
             return message.reply({embeds: [new Discord.MessageEmbed()
-              .setTitle(`<a:yes:833101995723194437> The Anti Discord Setup is now ${d2p(!previous)}!`)
+              .setTitle(`<a:success:907963383066816563> The Anti Discord Setup is now ${d2p(!previous)}!`)
               .setColor(es.color)
               .setFooter(client.getFooter(es))
             ]});
@@ -140,7 +140,7 @@ module.exports = {
             return message.reply({embeds: [new Discord.MessageEmbed()
               .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-antidiscord"]["variable4"]))
               .setColor(es.color)
-              .setDescription(`**Enabled:** ${thesettings.enabled ? "<a:yes:833101995723194437>" : "<:no:833101993668771842>"}\n\n**Witelisted Channels:** ${thesettings.whitelistedchannels.length > 0 ? `<#${thesettings.whitelistedchannels.join("> | <#")}>` : "No Channels Whitelisted!"}\n\n**Information:** *Anti Discord are not enabled in Tickets from THIS BOT*`.substring(0, 2048))
+              .setDescription(`**Enabled:** ${thesettings.enabled ? "<a:success:907963383066816563>" : "<:no:904319985004978198>"}\n\n**Witelisted Channels:** ${thesettings.whitelistedchannels.length > 0 ? `<#${thesettings.whitelistedchannels.join("> | <#")}>` : "No Channels Whitelisted!"}\n\n**Information:** *Anti Discord are not enabled in Tickets from THIS BOT*`.substring(0, 2048))
               .addField("**Whitelisted Links**", `${thesettings.whitelistedlinks.length > 0 ? thesettings.whitelistedlinks.join("\n").substring(0, 1024): "No Links allowed!"}`)
               .setFooter(client.getFooter(es))
             ]});
@@ -438,7 +438,7 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO

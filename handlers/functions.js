@@ -220,7 +220,7 @@ function isValidURL(string) {
   return url;
 };
 async function GetUser(message, arg){
-  var errormessage = "<:no:833101993668771842> I failed finding that User...";
+  var errormessage = "<:no:904319985004978198> I failed finding that User...";
   return new Promise(async (resolve, reject) => {
     var args = arg, client = message.client;
     if(!client || !message) return reject("CLIENT IS NOT DEFINED")
@@ -233,7 +233,7 @@ async function GetUser(message, arg){
     }
     /**
      * @INFO
-     * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+     * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
      * @INFO
      * Work for Milrato Development | https://milrato.eu
      * @INFO
@@ -262,7 +262,7 @@ async function GetUser(message, arg){
   })
 }
 async function GetRole(message, arg){
-  var errormessage = "<:no:833101993668771842> I failed finding that Role...";
+  var errormessage = "<:no:904319985004978198> I failed finding that Role...";
   return new Promise(async (resolve, reject) => {
     var args = arg, client = message.client;
     if(!client || !message) return reject("CLIENT IS NOT DEFINED")
@@ -289,7 +289,7 @@ async function GetRole(message, arg){
 }
 
 async function GetGlobalUser(message, arg){
-  var errormessage = "<:no:833101993668771842> I failed finding that User...";
+  var errormessage = "<:no:904319985004978198> I failed finding that User...";
   return new Promise(async (resolve, reject) => {
     var args = arg, client = message.client;
     if(!client || !message) return reject("CLIENT IS NOT DEFINED")
@@ -480,7 +480,7 @@ async function edit_Roster_msg(client, guild, the_roster_db, pre) {
         }
         /**
          * @INFO
-         * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+         * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
          * @INFO
          * Work for Milrato Development | https://milrato.eu
          * @INFO
@@ -1420,7 +1420,7 @@ async function swap_pages(client, message, description, TITLE) {
   let cmduser = message.author;
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO
@@ -1486,7 +1486,7 @@ async function swap_pages(client, message, description, TITLE) {
   //array of all embeds, here simplified just 10 embeds with numbers 0 - 9
   collector.on('collect', async b => {
       if(b?.user.id !== message.author?.id)
-        return b?.reply({content: `<:no:833101993668771842> **Only the one who typed ${prefix}help is allowed to react!**`, ephemeral: true})
+        return b?.reply({content: `<:no:904319985004978198> **Only the one who typed ${prefix}help is allowed to react!**`, ephemeral: true})
         //page forward
         if(b?.customId == "1") {
           collector.resetTimer();
@@ -1593,7 +1593,7 @@ async function swap_pages_data(client, message, description, TITLE, T_cmd = "Unk
   //array of all embeds, here simplified just 10 embeds with numbers 0 - 9
   collector.on('collect', async b => {
       if(b?.user.id !== message.author?.id)
-        return b?.reply({content: `<:no:833101993668771842> **Only the one who typed the cmd is allowed to react!**`, ephemeral: true})
+        return b?.reply({content: `<:no:904319985004978198> **Only the one who typed the cmd is allowed to react!**`, ephemeral: true})
         //page forward
         if(b?.customId == "1") {
           collector.resetTimer();
@@ -1679,7 +1679,7 @@ async function swap_pages2(client, message, embeds, tempmsg = false) {
   //array of all embeds, here simplified just 10 embeds with numbers 0 - 9
   collector.on('collect', async b => {
       if(b?.user.id !== message.author?.id)
-        return b?.reply({content: `<:no:833101993668771842> **Only the one who typed ${prefix}help is allowed to react!**`, ephemeral: true})
+        return b?.reply({content: `<:no:904319985004978198> **Only the one who typed ${prefix}help is allowed to react!**`, ephemeral: true})
         //page forward
         if(b?.customId == "1") {
           collector.resetTimer();
@@ -1761,7 +1761,7 @@ async function swap_pages2_interaction(client, interaction, embeds) {
   //array of all embeds, here simplified just 10 embeds with numbers 0 - 9
   collector.on('collect', async b => {
       if(b?.user.id !== cmduser.id)
-        return b?.reply({content: `<:no:833101993668771842> **Only the one who typed ${prefix}help is allowed to react!**`, ephemeral: true})
+        return b?.reply({content: `<:no:904319985004978198> **Only the one who typed ${prefix}help is allowed to react!**`, ephemeral: true})
         //page forward
         if(b?.customId == "1") {
           collector.resetTimer();
@@ -1827,7 +1827,7 @@ async function databasing(client, guildid, userid) {
         })
         /**
          * @INFO
-         * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+         * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
          * @INFO
          * Work for Milrato Development | https://milrato.eu
          * @INFO
@@ -1944,7 +1944,7 @@ async function databasing(client, guildid, userid) {
 
   /**
    * @INFO
-   * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+   * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
    * @INFO
    * Work for Milrato Development | https://milrato.eu
    * @INFO
@@ -2400,7 +2400,7 @@ async function create_transcript(message, client, msglimit) {
 }
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO
@@ -2869,7 +2869,7 @@ const channelInfo = (url, options = {}) => __awaiter(void 0, void 0, void 0, fun
     }
     /**
      * @INFO
-     * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+     * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
      * @INFO
      * Work for Milrato Development | https://milrato.eu
      * @INFO

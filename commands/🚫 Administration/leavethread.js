@@ -51,21 +51,21 @@ module.exports = {
         return message.reply({embeds :[new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<:no:833101993668771842> **\`${channel.name}\` Channel is not a Thread**`)
+          .setTitle(`<:no:904319985004978198> **\`${channel.name}\` Channel is not a Thread**`)
         ]});
       await channel.leave().then(()=>{
         if(channel.id != message.channel.id){
           message.reply({embeds :[new MessageEmbed()
             .setColor(es.color)
             .setFooter(client.getFooter(es))
-            .setTitle(`<a:yes:833101995723194437> **I left \`${channel.name}\`**`)
+            .setTitle(`<a:success:907963383066816563> **I left \`${channel.name}\`**`)
           ]});
         }
       }).catch(()=>{
         message.reply({embeds :[new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<a:yes:833101995723194437> **I couldn't leave \`${channel.name}\`**`)
+          .setTitle(`<a:success:907963383066816563> **I couldn't leave \`${channel.name}\`**`)
         ]});
       })
       if (GuildSettings && GuildSettings.adminlog && GuildSettings.adminlog != "no") {
@@ -98,7 +98,7 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO

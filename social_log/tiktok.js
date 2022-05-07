@@ -17,7 +17,7 @@ module.exports = async (client) => {
             check(guild);
             await delay(1500);
         }
-     }, null, true, 'Europe/Berlin');
+     }, null, true, 'Asia/Jakarta');
      
     client.on(`ready`, () => {
         // client.Jobtiktok.start(); //start the JOB

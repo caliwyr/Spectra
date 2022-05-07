@@ -54,7 +54,7 @@ module.exports = async client => {
                 }
             })
         }
-    }, null, true, 'Europe/Berlin');
+    }, null, true, 'Asia/Jakarta');
     client.Jobremind = new CronJob("*/10 * * * * *", async function(){
         let data = await client.afkDB.get("REMIND.REMIND") || []
         var reminds_now = data.filter(v => {
@@ -106,7 +106,7 @@ module.exports = async client => {
                 }
             })
         }
-    }, null, true, "Europe/Berlin")
+    }, null, true, "Asia/Jakarta")
 
 
     client.on("ready", () => {

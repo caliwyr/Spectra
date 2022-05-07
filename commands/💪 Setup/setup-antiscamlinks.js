@@ -81,7 +81,7 @@ module.exports = {
           .setColor(es.color)
           .setAuthor(client.getAuthor("Anti-Scam-Links System Setup", 
           "https://cdn.discordapp.com/emojis/858405056238714930.gif?v=1",
-          "https://discord.gg/milrato"))
+          "https://discord.gg/oryzen"))
           .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-antilink"]["variable1"]))
         let used1 = false;
         //send the menu msg
@@ -101,11 +101,11 @@ module.exports = {
             client.disableComponentMessage(menu); used1 = true;
             handle_the_picks(menuoptionindex, menuoptiondata)
           }
-          else menu?.reply({content: `<:no:833101993668771842> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
+          else menu?.reply({content: `<:no:904319985004978198> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
         });
         //Once the Collections ended edit the menu message
         collector.on('end', collected => {
-          menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a:yes:833101995723194437> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
+          menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a:success:907963383066816563> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
         });
       }
 
@@ -126,7 +126,7 @@ module.exports = {
             return message.reply({embeds: [new Discord.MessageEmbed()
               .setTitle(`Settings of the AntiDiscordScam Link System`)
               .setColor(es.color)
-              .setDescription(`**Enabled:** ${thesettings.enabled ? "<a:yes:833101995723194437>" : "<:no:833101993668771842>"}`.substring(0, 2048))
+              .setDescription(`**Enabled:** ${thesettings.enabled ? "<a:success:907963383066816563>" : "<:no:904319985004978198>"}`.substring(0, 2048))
               .addField("**Action**", `\`\`\`${thesettings.action}\`\`\``)
               .setFooter(client.getFooter(es))
             ]});
@@ -169,7 +169,7 @@ module.exports = {
               .setColor(es.color)
               .setAuthor(client.getAuthor("Anti-Scam-Links System Setup", 
               "https://cdn.discordapp.com/emojis/858405056238714930.gif?v=1",
-              "https://discord.gg/milrato"))
+              "https://discord.gg/oryzen"))
               .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-antilink"]["variable1"]))
             let used1 = false;
             //send the menu msg
@@ -192,11 +192,11 @@ module.exports = {
                 await client.settings.set(`${message.guild.id}.antidiscordscam.action`, action);
                 await message.reply(`I will now ${menu.values[0]} Members when they send scam link(s).`)
               }
-              else menu?.reply({content: `<:no:833101993668771842> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
+              else menu?.reply({content: `<:no:904319985004978198> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
             });
             //Once the Collections ended edit the menu message
             collector.on('end', collected => {
-              menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a:yes:833101995723194437> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
+              menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a:success:907963383066816563> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
             });
           } break;
         }
@@ -217,7 +217,7 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO

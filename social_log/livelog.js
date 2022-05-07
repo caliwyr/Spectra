@@ -22,12 +22,12 @@ module.exports = async client => {
       await delay(1500);
     }
     return true;
- }, null, true, 'Europe/Berlin');
+ }, null, true, 'Asia/Jakarta');
 
  //update the authorization key every hour
  client.Joblivelog2 = new CronJob('0 * * * *', async function() {
    UpdateAuthConfig();
- }, null, true, 'Europe/Berlin');
+ }, null, true, 'Asia/Jakarta');
 
  client.on('ready', async () => {
      client.Joblivelog.start();

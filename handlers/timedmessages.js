@@ -26,7 +26,7 @@ module.exports = async (client) => {
             await timedmessage(guildid)
         } 
         return;
-    }, null, true, 'Europe/Berlin');
+    }, null, true, 'Asia/Jakarta');
     client.JobTimesMessages.start();
 
     //function for sending automatic nsfw

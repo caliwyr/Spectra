@@ -15,7 +15,7 @@ module.exports = async (client) => {
         for await (const guildid of guilds.filter(d => client.guilds.cache.has(d))){
             await autobackup(guildid);
         } 
-    }, null, true, 'Europe/Berlin');
+    }, null, true, 'Asia/Jakarta');
     client.Jobautobackup.start();
 
     //function for sending automatic nsfw

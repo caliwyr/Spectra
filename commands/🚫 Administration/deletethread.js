@@ -26,7 +26,7 @@ module.exports = {
         return message.reply({embeds :[new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<:no:833101993668771842> **This Channel is not a Thread**`)
+          .setTitle(`<:no:904319985004978198> **This Channel is not a Thread**`)
         ]});
       await channel.delete();
       if (GuildSettings && GuildSettings.adminlog && GuildSettings.adminlog != "no") {
@@ -59,7 +59,7 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO

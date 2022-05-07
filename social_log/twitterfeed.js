@@ -7,7 +7,7 @@ module.exports = async (client) => {
   client.Jobtwitterfeed  = new CronJob('0 0,10,20,30,40,50 * * * *', async function() {
     await create_twit(client);
     return;
-  }, null, true, 'Europe/Berlin');
+  }, null, true, 'Asia/Jakarta');
 
   client.on('ready', async () => {
     client.Jobtwitterfeed.start();

@@ -20,7 +20,7 @@ module.exports = {
     try{
         const oldDate = Date.now();
         let tempmsg = await message.reply({embeds: [new Discord.MessageEmbed().setColor(es.color)
-          .setAuthor(client.getAuthor(client.la[ls].cmds.info.botinfo.loading, "https://cdn.discordapp.com/emojis/756773010123522058.gif", "https://discord.gg/milrato"))
+          .setAuthor(client.getAuthor(client.la[ls].cmds.info.botinfo.loading, "https://cdn.discordapp.com/emojis/756773010123522058.gif", "https://discord.gg/oryzen"))
         ]}).catch(console.error)
         let botPing = Math.round(Date.now() - oldDate) - client.ws.ping;
         if(botPing < 0) botPing *= -1;
@@ -97,7 +97,7 @@ module.exports = {
 };
 /**
   * @INFO
-  * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+  * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
   * @INFO
   * Work for Milrato Development | https://milrato.eu
   * @INFO

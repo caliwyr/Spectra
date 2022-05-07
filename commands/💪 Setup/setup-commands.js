@@ -138,7 +138,7 @@ module.exports = {
         }
         await client.settings.set(message.guild.id, GuildSettings)
         GuildSettings = await client.settings.get(message.guild.id);
-        b?.reply(`<a:yes:833101995723194437> **\`Enabled ${enabled} Command-Categories\` and \`Disabled ${disabled} Command-Categories\` out of \`${b?.values.length} selected Command-Categories\`**`)
+        b?.reply(`<a:success:907963383066816563> **\`Enabled ${enabled} Command-Categories\` and \`Disabled ${disabled} Command-Categories\` out of \`${b?.values.length} selected Command-Categories\`**`)
       })
       collector.on('end', collected => {
         msg.edit({content: ":x: Time ran out/Input finished! Cancelled", embeds: [
@@ -158,7 +158,7 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO

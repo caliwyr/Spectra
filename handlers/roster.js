@@ -26,7 +26,7 @@ module.exports = (client) => {
                 }
             }
         });
-    }, null, true, 'Europe/Berlin');
+    }, null, true, 'Asia/Jakarta');
     client.Jobroster.start();
 
     client.on("guildMemberUpdate", async function (oldMember, newMember) {

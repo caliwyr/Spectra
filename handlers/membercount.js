@@ -24,7 +24,7 @@ module.exports = function (client, options) {
         memberCount(guildid)
         await delay(1000);
     }
-  }, null, true, 'Europe/Berlin');
+  }, null, true, 'Asia/Jakarta');
 
   client.on("ready", async () => {
     client.Jobmembercount.start();
