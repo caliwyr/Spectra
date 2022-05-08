@@ -6,6 +6,7 @@ const config = require(`../../botconfig/config.json`);
 var ee = require(`../../botconfig/embed.json`);
 const emoji = require(`../../botconfig/emojis.json`);
 const fetch = require("node-fetch");
+require('dotenv').config()
 module.exports = {
   name: "betrayal-io",
   aliases: ["betrayalio", "betrayal"],

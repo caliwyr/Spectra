@@ -8,6 +8,7 @@ const emoji = require(`../../botconfig/emojis.json`);
 const moment = require('moment');
 const twitconfig = require("../../social_log/twitter.json");
 const Twit = require('twit');
+require('dotenv').config()
 const { handlemsg } = require(`../../handlers/functions`);
 module.exports = {
   name: "twitterinfo",

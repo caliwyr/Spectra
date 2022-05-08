@@ -5,6 +5,7 @@ const { dbEnsure, delay } = require("./functions")
 const OS = require("os");
 const { MessageEmbed } = require("discord.js");
 const { GiveawaysManager } = require('discord-giveaways');
+require('dotenv').config()
 module.exports = async client => {
     return new Promise(async (res) => {
 

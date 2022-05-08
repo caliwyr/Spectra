@@ -6,6 +6,7 @@ const {
   var ee = require(`../../botconfig/embed.json`);
   const emoji = require(`../../botconfig/emojis.json`);
   const fetch = require("node-fetch");
+  require('dotenv').config()
   module.exports = {
     name: "youtubetogether",
     aliases: ["yttogether", "ytt", "watchtogether", "wt", "together", "yt", "youtube"],

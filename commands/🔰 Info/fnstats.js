@@ -6,6 +6,7 @@ const {
 const config = require(`../../botconfig/config.json`);
 var ee = require(`../../botconfig/embed.json`);
 const emoji = require(`../../botconfig/emojis.json`);
+require('dotenv').config()
 const {
   GetUser,
   GetGlobalUser,

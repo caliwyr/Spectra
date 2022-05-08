@@ -1,6 +1,7 @@
 const twitconfig = require("./twitter.json")
 const Twit = require('twit')
 const { dbEnsure, delay } = require(`${process.cwd()}/handlers/functions`)
+require('dotenv').config()
 var CronJob = require('cron').CronJob;
 module.exports = async (client) => {
   //create the job with a "7" Minute delay!

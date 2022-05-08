@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const Canvas = require("discord-canvas");
+require('dotenv').config()
 const {
   MessageEmbed
 } = require("discord.js");

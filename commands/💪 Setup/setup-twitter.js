@@ -6,6 +6,7 @@ var config = require(`../../botconfig/config.json`);
 var ee = require(`../../botconfig/embed.json`);
 var emoji = require(`../../botconfig/emojis.json`);
 var fs = require("fs");
+require('dotenv').config()
 var {
   dbEnsure, dbRemove
 } = require(`../../handlers/functions`);
