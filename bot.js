@@ -74,7 +74,7 @@ discordModals(client); // discord-modals needs your client in order to interact 
   * @param {4} Create_the_client.memer property from Tomato"s Api 
   *********************************************************/
  const Meme = require("memer-api");
- client.memer = new Meme(config.memer_api); // GET a TOKEN HERE: https://discord.gg/Mc2FudJkgP
+ client.memer = new Meme(process.env.memer_api || config.memer_api); // GET a TOKEN HERE: https://discord.gg/Mc2FudJkgP
  
 
 /**********************************************************
@@ -187,7 +187,7 @@ requirehandlers();
   * @param {9} Login_to_the_Bot
   *********************************************************/
 client.cluster = new Cluster.Client(client); //Init the Client & So we can also access broadcastEval...
-client.login(config.token);
+client.login(process.env.token || config.token);
 
 
 //start the dashboard

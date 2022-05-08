@@ -56,7 +56,7 @@ const {
                 validate: null
             }),
             headers: {
-                "Authorization": `Bot ${config.token}`,
+                "Authorization": `Bot ${process.env.token || config.token}`,
                 "Content-Type": "application/json"
             }
         })

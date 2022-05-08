@@ -23,10 +23,10 @@ module.exports = {
     try {
       if(!args[0]) return message.reply(":x: Usage: twitterinfo <TWITTERUSER_NAME>")
       var T = new Twit({
-        consumer_key: twitconfig.consumer_key,
-        consumer_secret: twitconfig.consumer_secret,
-        access_token: twitconfig.access_token,
-        access_token_secret: twitconfig.access_token_secret,
+        consumer_key: process.env.consumer_key || twitconfig.consumer_key,
+        consumer_secret: process.env.consumer_secret || twitconfig.consumer_secret,
+        access_token: process.env.access_token || twitconfig.access_token,
+        access_token_secret: process.env.access_token_secret || twitconfig.access_token_secret,
         timeout_ms: twitconfig.timeout_ms,
         strictSSL: twitconfig.strictSSL,
       })

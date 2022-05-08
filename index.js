@@ -7,7 +7,7 @@ const shardsPerCluster = 4; // suggested is: 2-8
 const totalShards = clusterAmount * shardsPerCluster; // suggested is to make it that 600-900 Servers are per shard, if u want to stay save, make it that it"s 400 servers / shard, and once it reached the ~1k mark, change the amount and restart
 
 const manager = new Manager("./bot.js", { 
-    token: config.token,    
+    token: process.env.token || config.token,    
     // shardList: [ 0, 1, 2, 3, 4, 5 ], // if only those shards on that host etc.
     totalShards: totalShards, // amount or: "auto"
     shardsPerClusters: shardsPerCluster || 2, // amount of shards / cluster
