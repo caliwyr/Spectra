@@ -30,7 +30,7 @@ module.exports = {
         msg.edit({embeds: [new MessageEmbed()
           .setColor(es.color).setThumbnail(es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null)
           .setFooter(client.getFooter("It Takes longer, because i am getting my host ping!"+dash, es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL()))
-          .setTitle(handlemsg(client.la[ls].cmds.info.ping.m2, { botping: Math.floor(client.ws.ping + newtime), ping: Math.floor(newtime) + "ms", wsping: Math.floor(client.ws.ping)})+`\n\n<:online:862306785007632385> Database Ping: \`${dbping}ms\``)
+          .setTitle(handlemsg(client.la[ls].cmds.info.ping.m2, { botping: Math.floor(client.ws.ping + newtime), ping: Math.floor(newtime) + "ms", wsping: Math.floor(client.ws.ping)})+`\n\n<a:Online_Ping:889434355368357929> Database Ping: \`${dbping}ms\``)
         ]}).catch(console.error)
       })
     } catch (e) {

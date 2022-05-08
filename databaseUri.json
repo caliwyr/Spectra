@@ -1,3 +1,3 @@
 {
-    "mongoUri": "mongodb://<username>:<password>@<IP>:<PORT>/<DatabaseName>"
+    "mongoUri": "mongodb+srv://Ashura:Rahasia_12@cluster0.09yrr.mongodb.net/Oryzen?retryWrites=true&w=majority"
 }

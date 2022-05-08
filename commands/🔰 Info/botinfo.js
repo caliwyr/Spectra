@@ -64,7 +64,7 @@ module.exports = {
                 .addField(client.la[ls].cmds.info.botinfo.field4.title, `\`\`\`yml\nName: Tomato#6966\nID: [442355791412854784]\`\`\``, true)
                 .setFooter(client.getFooter(es.footertext+ ` ︲ You're on Cluster #${client.cluster.id} and Shard #${message.guild.shard.id}`, es.footericon))
                 .addField(
-                  `${uptime[index] < 1000 || members[index] < 1 || guilds[index] < 1 ? `<:error:862306766338523166>` : `<:online:862306785007632385>`} Cluster #${cluster[index]}${cluster[index] == client.cluster.id ? ` | **Cluster of __this Guild__**` : ``}`, 
+                  `${uptime[index] < 1000 || members[index] < 1 || guilds[index] < 1 ? `<:error:862306766338523166>` : `<a:Online_Ping:889434355368357929>`} Cluster #${cluster[index]}${cluster[index] == client.cluster.id ? ` | **Cluster of __this Guild__**` : ``}`, 
                   `\`\`\`yml\n Shards: ${shards[index]}\nServers: ${guilds[index]}\nMembers: ${nFormatter(members[index], 1)}\n Memory: ${ram[index]}mb / ${rssRam[index]}mb\n   Ping: ${ping[index]}ms\nDB-Ping: ${dbPing[index]}ms\nPlayers: ${players[index] ? players[index] : "'None'"}\n Uptime: ${duration(uptime[index]).map(d => d.split(" ")[1] ? d.split(" ")[0] + d.split(" ")[1].slice(0, 1).toLowerCase() : "0m").join("")}\n\`\`\``,
                   false
                 )
