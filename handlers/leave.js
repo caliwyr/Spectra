@@ -64,7 +64,7 @@ module.exports = async (client) => {
       if(invites < 0) invites *= -1;
       let realinvites = invites - fake - leaves;
       let invitedby = member.guild.members.cache.get(leftInviterData.id) || await member.guild.members.fetch(leftInviterData.id).catch(() => null) || false;
-      invitemessage = `Was Invited by ${invitedby && invitedby.tag ? `**${invitedby.tag}**` : `<@${leftInviterData.id}>`}\n<:Like:857334024087011378> **${realinvites} Invite${realinvites == 1 ? "" : "s"}**\n[<:joines:866356465299488809> ${invites} Joins | <:exit:904319888506617856> ${leaves} Leaves | <:no:904319985004978198> ${fake} Fakes]`;
+      invitemessage = `Was Invited by ${invitedby && invitedby.tag ? `**${invitedby.tag}**` : `<@${leftInviterData.id}>`}\n<:Likess:904319690808098836> **${realinvites} Invite${realinvites == 1 ? "" : "s"}**\n[<:in:904319802401759232> ${invites} Joins | <:exit:904319888506617856> ${leaves} Leaves | <:no:904319985004978198> ${fake} Fakes]`;
     } else {
       if(memberData.joinData.type == "vanity"){
         try{

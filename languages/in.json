@@ -213,7 +213,7 @@
                 "variable24": "`🦾 **Custom Commands [${cuc[0].includes(\"NO\") ? 0 : items.length}]**`",
                 "variable25": "\" Bot Creator Company Advertisment\"",
                 "variablex_26": "` **__Bot Creator Information__**`",
-                "variable26": "`>>> 💯 This Bot has been made by:\\n[**Milrato Development**](https://milrato.eu)・[Discord](https://discord.com/invite/milrato) [Click here to order yourself a own one](https://discord.com/invite/milrato)`",
+                "variable26": "`>>> 💯 This Bot has been made by:\\n[**Oryzen Development**](https://milrato.eu)・[Discord](https://discord.com/invite/milrato) [Click here to order yourself a own one](https://discord.com/invite/milrato)`",
                 "variable27": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "invite": {

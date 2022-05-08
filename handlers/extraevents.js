@@ -261,7 +261,7 @@ module.exports = async (client) => {
 
     let text = embedData.footertext;
     let iconURL = embedData.footericon;
-    if(!text || text.length < 1) text = `${client.user.username} | By: Tomato#6966`;
+    if(!text || text.length < 1) text = `${client.user.username} | By: Ashura#6969`;
     if(!iconURL || iconURL.length < 1) iconURL = `${client.user.displayAvatarURL()}`;
     
     //Change the lengths
@@ -281,7 +281,7 @@ module.exports = async (client) => {
     let iconURL = authoricon;
     let url = authorurl;
 
-    if(!name || name.length < 1) name = `${client.user.username} | By: Tomato#6966`;
+    if(!name || name.length < 1) name = `${client.user.username} | By: Ashura#6969`;
     if(!iconURL || iconURL.length < 1) iconURL = `${client.user.displayAvatarURL()}`;
     if(!url || url.length < 1) url = `https://discord.gg/oryzen`;
 
@@ -378,7 +378,7 @@ module.exports = async (client) => {
     let ls = client.settings.get(guild.id, "language")
     let embed = new MessageEmbed()
       .setColor("GREEN")
-      .setTitle(`<a:Join_vc:863876115584385074> Joined a New Server`)
+      .setTitle(`<a:Joiner:961380868843253820> Joined a New Server`)
       .addField("Guild Info", `>>> \`\`\`${guild.name} (${guild.id})\`\`\``)
       .addField("Owner Info", `>>> \`\`\`${theowner ? `${theowner.tag} (${theowner.id})` : `${theowner} (${guild.ownerId})`}\`\`\``)
       .addField("Member Count", `>>> \`\`\`${guild.memberCount}\`\`\``)

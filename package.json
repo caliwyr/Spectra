@@ -1,7 +1,7 @@
 {
   "name": "clan_bot",
   "version": "11.0.0",
-  "description": "A Discord Bot made by: Tomato#6966",
+  "description": "A Discord Bot made By: Ashura#6969",
   "main": "index.js",
   "dependencies": {
     "@discordjs/builders": "^0.12.0",

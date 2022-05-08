@@ -16,7 +16,7 @@
                     {
                         "value": "Ersteller / Funktionen",
                         "description": "Wer ist mein Macher? / Was sind meine Funktionen?",
-                        "replymsg": "<:Milrato:840259659163893820> **__Milrato Development__ hat mich gemacht!**\n> <:Like:857334024087011378> **Ihre Internet Seite:** https://milrato.eu\n> <:Discord:946108944785489940> **Ihr Discord:** https://discord.gg/oryzen\n``` ```***__Du kannst ihrem Discord Server beitreten und einen kostenlosen, bzw. günstigen Discord Bot deiner Wahl erhalten, wie mich!__***\n``` ```:muscle: **__Meine Funktionen__**\n>>> **68+ Systeme**, wie z.B: Automatischer <:twitter:840255600851812393> **Twitter-** & <:Youtube:840260133686870036> **Youtube** Upload Poster \n**Bewerbungs-**, Ticket-, **Willkommens-Bilder-** und Reaction Role-, ... Systeme\n:notes: Ein komplexes <:Spotify:846090652231663647> **Music System** mit **Audio Filter**\n:video_game: Viele **Minigames** und :joystick: **Fun** Befehle (150+)\n:no_entry_sign: **Administration** und **Auto-Moderation** und viel mehr!\n\n**Der Programmiere ist: `Tomato#6966` <:TOMATO:858450817665204224>, Wenn du ihn anheuern willst, dann kontaktiere ihn!**",
+                        "replymsg": "<:Milrato:840259659163893820> **__Milrato Development__ hat mich gemacht!**\n> <:Likess:904319690808098836> **Ihre Internet Seite:** https://milrato.eu\n> <:Discord:946108944785489940> **Ihr Discord:** https://discord.gg/oryzen\n``` ```***__Du kannst ihrem Discord Server beitreten und einen kostenlosen, bzw. günstigen Discord Bot deiner Wahl erhalten, wie mich!__***\n``` ```:muscle: **__Meine Funktionen__**\n>>> **68+ Systeme**, wie z.B: Automatischer <:twitter:840255600851812393> **Twitter-** & <:Youtube:840260133686870036> **Youtube** Upload Poster \n**Bewerbungs-**, Ticket-, **Willkommens-Bilder-** und Reaction Role-, ... Systeme\n:notes: Ein komplexes <:Spotify:846090652231663647> **Music System** mit **Audio Filter**\n:video_game: Viele **Minigames** und :joystick: **Fun** Befehle (150+)\n:no_entry_sign: **Administration** und **Auto-Moderation** und viel mehr!\n\n**Der Programmiere ist: `Tomato#6966` <:TOMATO:858450817665204224>, Wenn du ihn anheuern willst, dann kontaktiere ihn!**",
                         "emoji": "840259659163893820"
                     },
                     {
@@ -40,7 +40,7 @@
                     {
                         "value": "Partner / Sponsoren",
                         "description": "Wir sind sehr stolz auf unsere Partner & Sponsoren",
-                        "replymsg": "<:BeroHost:852970925695041646> Unser erster Sponsor ist **Bero-Host.de** <:BeroHost:852970925695041646>\n> <:Like:857334024087011378> **Ihre Internet Seite:** https://bero-host.de\n> <:Discord:946108944785489940> **Ihr Discord:** https://discord.bero-host.de\n> *Sie geben uns höchst qualtiative __SERVER__ welche wir für das Bot-Hosting verwenden! **BESUCHE SIE**!*\n``` ```<:Bittmax:840370610755862529> Unser zweiter Sponsor ist **Bittmax.de** <:Bittmax:840370610755862529>\n> <:Like:857334024087011378> **Ihre Internet Seite:** https://bittmax.de\n> <:Discord:946108944785489940> **Ihr Discord:** https://discord.gg/GgjJZCyYKD\n> *Sie geben uns höchst qualtiative __SERVER__ welche wir für das Bot-Hosting verwenden! **BESUCHE SIE**!*\n``` ```**__Partner__**\n> ***Wir haben zurzeit `{partnercount} Partner`, welche mindestens 1 OP GRATIS BOT erhalten***\n``` ```Du willst auch ein Partner sein oder uns Sponsorn?\nKontaktiere uns auf unserem Discord Server:\n <:Discord:946108944785489940> **Discord:** https://discord.gg/oryzen und öffne ein Ticket in <#840491251278676008>",
+                        "replymsg": "<:BeroHost:852970925695041646> Unser erster Sponsor ist **Bero-Host.de** <:BeroHost:852970925695041646>\n> <:Likess:904319690808098836> **Ihre Internet Seite:** https://bero-host.de\n> <:Discord:946108944785489940> **Ihr Discord:** https://discord.bero-host.de\n> *Sie geben uns höchst qualtiative __SERVER__ welche wir für das Bot-Hosting verwenden! **BESUCHE SIE**!*\n``` ```<:Bittmax:840370610755862529> Unser zweiter Sponsor ist **Bittmax.de** <:Bittmax:840370610755862529>\n> <:Likess:904319690808098836> **Ihre Internet Seite:** https://bittmax.de\n> <:Discord:946108944785489940> **Ihr Discord:** https://discord.gg/GgjJZCyYKD\n> *Sie geben uns höchst qualtiative __SERVER__ welche wir für das Bot-Hosting verwenden! **BESUCHE SIE**!*\n``` ```**__Partner__**\n> ***Wir haben zurzeit `{partnercount} Partner`, welche mindestens 1 OP GRATIS BOT erhalten***\n``` ```Du willst auch ein Partner sein oder uns Sponsorn?\nKontaktiere uns auf unserem Discord Server:\n <:Discord:946108944785489940> **Discord:** https://discord.gg/oryzen und öffne ein Ticket in <#840491251278676008>",
                         "emoji": "866089513436315698"
                     },
                     {
@@ -213,7 +213,7 @@
                 "variable24": "`🦾 **Custom Commands [${cuc[0].includes(\"NO\") ? 0 : items.length}]**`",
                 "variable25": "\"<:Milrato:840259659163893820> Bot Creator Company Advertisment\"",
                 "variablex_26": "`<:Milrato:840259659163893820> **__Bot Creator Information__**`",
-                "variable26": "`>>> 💯 This Bot has been made by:\\n[**Milrato Development**](https://milrato.eu)・[Discord](https://discord.com/invite/milrato)<:Discord:946108944785489940> [Click here to order yourself a own one](https://discord.com/invite/milrato)`",
+                "variable26": "`>>> 💯 This Bot has been made by:\\n[**Oryzen Development**](https://milrato.eu)・[Discord](https://discord.com/invite/milrato)<:Discord:946108944785489940> [Click here to order yourself a own one](https://discord.com/invite/milrato)`",
                 "variable27": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "invite": {
@@ -228,11 +228,11 @@
             "invites": {
                 "author": "Einladungen von: {usertag}",
                 "field1": {
-                    "value": "<:Like:857334024087011378> {user} _**hat __{realinvites} Nutzer__ eingeladen**_!"
+                    "value": "<:Likess:904319690808098836> {user} _**hat __{realinvites} Nutzer__ eingeladen**_!"
                 },
                 "field2": {
                     "title": "💡 **Das heißt er/sie hat:**",
-                    "value": "> <:joines:866356465299488809> {invites} Joins (Wenn der Nutzer dem Server joined)\n> <:exit:904319888506617856> {leaves} Leaves (Wenn der Nutzer den Server verlässt)\n> <:no:904319985004978198> {fake} Falsch Einladungen(Alternative Accounts / Rejoins)"
+                    "value": "> <:in:904319802401759232> {invites} Joins (Wenn der Nutzer dem Server joined)\n> <:exit:904319888506617856> {leaves} Leaves (Wenn der Nutzer den Server verlässt)\n> <:no:904319985004978198> {fake} Falsch Einladungen(Alternative Accounts / Rejoins)"
                 },
                 "field3": {
                     "title": "📘 **Um deine Einladungen zu berechnen, mach das:**"
@@ -1822,7 +1822,7 @@
                 "variable23": "\"<:no:904319985004978198> Deine Zeit ist abgelaufen\"",
                 "variable24": "\"Which Role/User do you wanna add/remove?\"",
                 "variable25": "`*Just ping each User / Role you wanna whitelist!*\\n\\n> *If the Role/User is already in the Whitelisted, it will automatically get \"unwhitelisted\"*`",
-                "variable26": "`<:joines:866356465299488809> **Added \\`[${addedroles.length}] Roles\\` and \\`[${addedusers.length}] Users\\` to the __Anti Bot add__ Whitelist (module)!**`",
+                "variable26": "`<:in:904319802401759232> **Added \\`[${addedroles.length}] Roles\\` and \\`[${addedusers.length}] Users\\` to the __Anti Bot add__ Whitelist (module)!**`",
                 "variablex_27": "\"__**Current Whitelisted Users:**__\"",
                 "variable27": "`>>> ${client.Anti_Nuke_System.get(message.guild.id, \"antibot.whitelisted.users\").length == 0 ? \"**No One**\" : client.Anti_Nuke_System.get(message.guild.id, \"antibot.whitelisted.users\").length > 15 ? client.Anti_Nuke_System.get(message.guild.id, \"antibot.whitelisted.users\").slice(0, 15).map(x=>`<@${x}>`).join(\"︲\") + ` ***and ${client.Anti_Nuke_System.get(message.guild.id, \"antibot.whitelisted.users\").length - 15} more...***`: client.Anti_Nuke_System.get(message.guild.id, \"antibot.whitelisted.users\").map(x=>`<@${x}>`).join(\"︲\")}`",
                 "variablex_28": "\"__**Current Whitelisted Roles:**__\"",
@@ -1830,7 +1830,7 @@
                 "variable29": "\"<:no:904319985004978198> Deine Zeit ist abgelaufen\"",
                 "variable30": "\"Which Role/User do you wanna add/remove?\"",
                 "variable31": "`*Just ping each User / Role you wanna whitelist!*\\n\\n> *If the Role/User is already in the Whitelisted, it will automatically get \"unwhitelisted\"*`",
-                "variable32": "`<:joines:866356465299488809> **Added \\`[${addedroles.length}] Roles\\` and \\`[${addedusers.length}] Users\\` to the __Anti Kick/Ban__ Whitelist (module)!**`",
+                "variable32": "`<:in:904319802401759232> **Added \\`[${addedroles.length}] Roles\\` and \\`[${addedusers.length}] Users\\` to the __Anti Kick/Ban__ Whitelist (module)!**`",
                 "variablex_33": "\"__**Current Whitelisted Users:**__\"",
                 "variable33": "`>>> ${client.Anti_Nuke_System.get(message.guild.id, \"antideleteuser.whitelisted.users\").length == 0 ? \"**No One**\" : client.Anti_Nuke_System.get(message.guild.id, \"antideleteuser.whitelisted.users\").length > 15 ? client.Anti_Nuke_System.get(message.guild.id, \"antideleteuser.whitelisted.users\").slice(0, 15).map(x=>`<@${x}>`).join(\"︲\") + ` ***and ${client.Anti_Nuke_System.get(message.guild.id, \"antideleteuser.whitelisted.users\").length - 15} more...***`: client.Anti_Nuke_System.get(message.guild.id, \"antideleteuser.whitelisted.users\").map(x=>`<@${x}>`).join(\"︲\")}`",
                 "variablex_34": "\"__**Current Whitelisted Roles:**__\"",
@@ -1838,7 +1838,7 @@
                 "variable35": "\"<:no:904319985004978198> Deine Zeit ist abgelaufen\"",
                 "variable36": "\"Which Role/User do you wanna add/remove?\"",
                 "variable37": "`*Just ping each User / Role you wanna whitelist!*\\n\\n> *If the Role/User is already in the Whitelisted, it will automatically get \"unwhitelisted\"*`",
-                "variable38": "`<:joines:866356465299488809> **Added \\`[${addedroles.length}] Roles\\` and \\`[${addedusers.length}] Users\\` to the __Anti Create Role__ Whitelist (module)!**`",
+                "variable38": "`<:in:904319802401759232> **Added \\`[${addedroles.length}] Roles\\` and \\`[${addedusers.length}] Users\\` to the __Anti Create Role__ Whitelist (module)!**`",
                 "variablex_39": "\"__**Current Whitelisted Users:**__\"",
                 "variable39": "`>>> ${client.Anti_Nuke_System.get(message.guild.id, \"anticreaterole.whitelisted.users\").length == 0 ? \"**No One**\" : client.Anti_Nuke_System.get(message.guild.id, \"anticreaterole.whitelisted.users\").length > 15 ? client.Anti_Nuke_System.get(message.guild.id, \"anticreaterole.whitelisted.users\").slice(0, 15).map(x=>`<@${x}>`).join(\"︲\") + ` ***and ${client.Anti_Nuke_System.get(message.guild.id, \"anticreaterole.whitelisted.users\").length - 15} more...***`: client.Anti_Nuke_System.get(message.guild.id, \"anticreaterole.whitelisted.users\").map(x=>`<@${x}>`).join(\"︲\")}`",
                 "variablex_40": "\"__**Current Whitelisted Roles:**__\"",
@@ -1846,7 +1846,7 @@
                 "variable41": "\"<:no:904319985004978198> Deine Zeit ist abgelaufen\"",
                 "variable42": "\"Which Role/User do you wanna add/remove?\"",
                 "variable43": "`*Just ping each User / Role you wanna whitelist!*\\n\\n> *If the Role/User is already in the Whitelisted, it will automatically get \"unwhitelisted\"*`",
-                "variable44": "`<:joines:866356465299488809> **Added \\`[${addedroles.length}] Roles\\` and \\`[${addedusers.length}] Users\\` to the __Anti Delete Role__ Whitelist (module)!**`",
+                "variable44": "`<:in:904319802401759232> **Added \\`[${addedroles.length}] Roles\\` and \\`[${addedusers.length}] Users\\` to the __Anti Delete Role__ Whitelist (module)!**`",
                 "variablex_45": "\"__**Current Whitelisted Users:**__\"",
                 "variable45": "`>>> ${client.Anti_Nuke_System.get(message.guild.id, \"antideleterole.whitelisted.users\").length == 0 ? \"**No One**\" : client.Anti_Nuke_System.get(message.guild.id, \"antideleterole.whitelisted.users\").length > 15 ? client.Anti_Nuke_System.get(message.guild.id, \"antideleterole.whitelisted.users\").slice(0, 15).map(x=>`<@${x}>`).join(\"︲\") + ` ***and ${client.Anti_Nuke_System.get(message.guild.id, \"antideleterole.whitelisted.users\").length - 15} more...***`: client.Anti_Nuke_System.get(message.guild.id, \"antideleterole.whitelisted.users\").map(x=>`<@${x}>`).join(\"︲\")}`",
                 "variablex_46": "\"__**Current Whitelisted Roles:**__\"",
@@ -1854,7 +1854,7 @@
                 "variable47": "\"<:no:904319985004978198> Deine Zeit ist abgelaufen\"",
                 "variable48": "\"Which Role/User do you wanna add/remove?\"",
                 "variable49": "`*Just ping each User / Role you wanna whitelist!*\\n\\n> *If the Role/User is already in the Whitelisted, it will automatically get \"unwhitelisted\"*`",
-                "variable50": "`<:joines:866356465299488809> **Added \\`[${addedroles.length}] Roles\\` and \\`[${addedusers.length}] Users\\` to the __Anti Channel Create__ Whitelist (module)!**`",
+                "variable50": "`<:in:904319802401759232> **Added \\`[${addedroles.length}] Roles\\` and \\`[${addedusers.length}] Users\\` to the __Anti Channel Create__ Whitelist (module)!**`",
                 "variablex_51": "\"__**Current Whitelisted Users:**__\"",
                 "variable51": "`>>> ${client.Anti_Nuke_System.get(message.guild.id, \"antichanneldelete.whitelisted.users\").length == 0 ? \"**No One**\" : client.Anti_Nuke_System.get(message.guild.id, \"antichanneldelete.whitelisted.users\").length > 15 ? client.Anti_Nuke_System.get(message.guild.id, \"antichanneldelete.whitelisted.users\").slice(0, 15).map(x=>`<@${x}>`).join(\"︲\") + ` ***and ${client.Anti_Nuke_System.get(message.guild.id, \"antichanneldelete.whitelisted.users\").length - 15} more...***`: client.Anti_Nuke_System.get(message.guild.id, \"antichanneldelete.whitelisted.users\").map(x=>`<@${x}>`).join(\"︲\")}`",
                 "variablex_52": "\"__**Current Whitelisted Roles:**__\"",
@@ -1862,7 +1862,7 @@
                 "variable53": "\"<:no:904319985004978198> Deine Zeit ist abgelaufen\"",
                 "variable54": "\"Which Role/User do you wanna add/remove?\"",
                 "variable55": "`*Just ping each User / Role you wanna whitelist!*\\n\\n> *If the Role/User is already in the Whitelisted, it will automatically get \"unwhitelisted\"*`",
-                "variable56": "`<:joines:866356465299488809> **Added \\`[${addedroles.length}] Roles\\` and \\`[${addedusers.length}] Users\\` to the __Anti Channel Delete__ Whitelist (module)!**`",
+                "variable56": "`<:in:904319802401759232> **Added \\`[${addedroles.length}] Roles\\` and \\`[${addedusers.length}] Users\\` to the __Anti Channel Delete__ Whitelist (module)!**`",
                 "variablex_57": "\"__**Current Whitelisted Users:**__\"",
                 "variable57": "`>>> ${client.Anti_Nuke_System.get(message.guild.id, \"antichannelcreate.whitelisted.users\").length == 0 ? \"**No One**\" : client.Anti_Nuke_System.get(message.guild.id, \"antichannelcreate.whitelisted.users\").length > 15 ? client.Anti_Nuke_System.get(message.guild.id, \"antichannelcreate.whitelisted.users\").slice(0, 15).map(x=>`<@${x}>`).join(\"︲\") + ` ***and ${client.Anti_Nuke_System.get(message.guild.id, \"antichannelcreate.whitelisted.users\").length - 15} more...***`: client.Anti_Nuke_System.get(message.guild.id, \"antichannelcreate.whitelisted.users\").map(x=>`<@${x}>`).join(\"︲\")}`",
                 "variablex_58": "\"__**Current Whitelisted Roles:**__\"",
@@ -4535,11 +4535,11 @@
                 "variable1": "\"MANAGE INVITES OF \" + user.tag, client.user.displayAvatarURL(), \"https://discord.gg/oryzen\"",
                 "variable2": "`***Select what you want to do in the Selection down Below!***`",
                 "variablex_3": "`💡 **That means he has:**`",
-                "variable3": "`> <:joines:866356465299488809> ${invites} Joins (When the Member Joins the Server)\\n> <:exit:904319888506617856> ${leaves} Leaves (When the invited Member left the Server)\\n> <:no:904319985004978198> ${fake} Fakes (Alt Accounts / Rejoins)`",
+                "variable3": "`> <:in:904319802401759232> ${invites} Joins (When the Member Joins the Server)\\n> <:exit:904319888506617856> ${leaves} Leaves (When the invited Member left the Server)\\n> <:no:904319985004978198> ${fake} Fakes (Alt Accounts / Rejoins)`",
                 "variable4": "\"<:no:904319985004978198> ABGEBROCHEN the Setup!\"",
                 "variable5": "\"NOT A NUMBER\"",
                 "variablex_6": "`💡 **That means he has:**`",
-                "variable6": "`> <:joines:866356465299488809> ${invites} Joins (When the Member Joins the Server)\\n> <:exit:904319888506617856> ${leaves} Leaves (When the invited Member left the Server)\\n> <:no:904319985004978198> ${fake} Fakes (Alt Accounts / Rejoins)`",
+                "variable6": "`> <:in:904319802401759232> ${invites} Joins (When the Member Joins the Server)\\n> <:exit:904319888506617856> ${leaves} Leaves (When the invited Member left the Server)\\n> <:no:904319985004978198> ${fake} Fakes (Alt Accounts / Rejoins)`",
                 "variable7": "`\\`\\`\\`${String(message.content).substr(0, 2000)}\\`\\`\\``",
                 "variable8": "`Ausgeführt in:`, `<#${message.channel.id}> \\`${message.channel.name}\\``",
                 "variable9": "`Ausgeführt von:`, `<@${message.author.id}> (${message.author.tag})\\n\\`${message.author.tag}\\``",
@@ -5432,7 +5432,7 @@
             "extraevents": {
                 "variable1": "\"Don't unmute me!, i muted my self again! This safes Data so it gives you a faster and smoother experience\"",
                 "variable2": "\"Don't unmute me!, i muted my self again! This safes Data so it gives you a faster and smoother experience\"",
-                "variable3": "`<a:Join_vc:863876115584385074> Joined a new Guild | ${guild.name}`",
+                "variable3": "`<a:Joiner:961380868843253820> Joined a new Guild | ${guild.name}`",
                 "variable4": "`> **${guild.name} (\\`${guild.id}\\`)**\\n\\n> **Owner:** \\`${guild.owner ? guild.owner.tag : guild.ownerID}\\`\\n\\n> **Nutzern:** \\`${guild.memberCount}\\`\\n\\n> **Servers Bot is in:** \\`${client.guilds.cache.size}\\``",
                 "variable5": "`<:exit:904319888506617856> Left a Guild | ${guild.name}`",
                 "variable6": "`> **${guild.name} (\\`${guild.id}\\`)**\\n\\n> **Owner:** \\`${guild.owner ? guild.owner.tag : guild.ownerID}\\`\\n\\n> **Nutzern:** \\`${guild.memberCount}\\`\\n\\n> **Servers Bot is in:** \\`${client.guilds.cache.size}\\``"

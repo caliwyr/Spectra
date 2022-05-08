@@ -1524,7 +1524,7 @@ module.exports = {
           case `Test Welcome`:{
             var { member } = message;
             let welcome = GuildSettings.welcome;
-            let invitemessage = `Invited by ${member.user.tag ? `**${member.user.tag}**` : `<@${member.user.id}>`}\n<:Like:857334024087011378> **X Invites**\n[<:joines:866356465299488809> X Joins | <:exit:904319888506617856> X Leaves | <:no:904319985004978198> X Fakes]`
+            let invitemessage = `Invited by ${member.user.tag ? `**${member.user.tag}**` : `<@${member.user.id}>`}\n<:Likess:904319690808098836> **X Invites**\n[<:in:904319802401759232> X Joins | <:exit:904319888506617856> X Leaves | <:no:904319985004978198> X Fakes]`
             if(welcome){
               let themessage = String(welcome.secondmsg);
               if(!themessage || themessage.length == 0) themessage = ":wave: {user} **Welcome to our Server!** :v:";

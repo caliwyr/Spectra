@@ -283,7 +283,7 @@ but you can also do \`${prefix}setup-SYSTEM\` e.g. \`${prefix}setup-welcome\``)
 ⌚️ **${duration(client.uptime).map(i=> `\`${i}\``).join("︲")} Uptime**
 📶 **\`${Math.floor(client.ws.ping)}ms\` Ping**
 <a:Online_Ping:889434355368357929> **\`${Math.floor(await client.database.ping())}ms\` DB-Ping**
-<:OryzenDev:946108153328709712>  Made by [**Milrato Development**](https://discord.gg/oryzen)`)
+<:OryzenDev:946108153328709712>  Made by [**Oryzen Development**](https://discord.gg/oryzen)`)
 .addField("How to get help?", `>>> **\` 1. Way \`** *Use the Buttons, to swap the Pages*\n**\` 2. Way \`** *Use the Menu to select all Help Pages, you want to display*\n**\` 3. Way \`** *Watch the Youtube Tutorial*`)
 
         let err = false;
