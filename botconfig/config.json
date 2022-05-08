@@ -1,12 +1,12 @@
 {
    "token": "GET from: https://discord.com/developers/applications",
-   "prefix": ".",
+   "prefix": "?",
    "ownerIDS": [
       "855595858954027049"
    ],
-   "fnbr": "5ab16c0e5f957f27504aa4e4",
-   "fortnitetracker": "fd10f305-107f-46aa-a8c5-dd7986504e65",
-   "memer_api": "g5SOlSadRiK",
+   "fnbr": "GET from: https://fnbr.co",
+   "fortnitetracker": "GET from: https://fortnitetracker.com",
+   "memer_api": "GET from: https://discord.gg/Mc2FudJkgP",
    "status": {
       "text": "{prefix}help | on {guildcount} Servers, with {membercount} Members | Played: {songsplayed} Songs",
       "text2": "By: discord.gg/oryzen",
@@ -25,26 +25,26 @@
       ]
    },
    "spotify": {
-      "clientSecret": "e80e436efc6b4e01956c35d0571bd42e",
-      "clientID": "a4f2935ae46f4dadacbc5c0eebb9fb2b"
-   },
-   "settings": {
+      "clientSecret": "GET from: https://developers.spotify.com",
+      "clientID": "GET from: https://developers.spotify.com"
+  },
+  "settings": {
       "COMMENT": "time_delay 0 === insta leave",
       "leaveOnEmpty_Channel": {
-         "enabled": true,
-         "time_delay": 30000
+          "enabled": true,
+          "time_delay": 30000
       },
       "LeaveOnEmpty_Queue": {
-         "enabled": true,
-         "time_delay": 30000
+          "enabled": true,
+          "time_delay": 30000
       },
       "selfDeaf": true
-   },
-   "lyricssettings": {
+  },
+  "lyricssettings": {
       "lyrics_finder": true,
       "ksoft_api": {
-         "use_this_instead": true,
-         "api_key": "DISABLED"
+          "use_this_instead": true,
+          "api_key": "DISABLED"
       }
-   }
+  }
 }
